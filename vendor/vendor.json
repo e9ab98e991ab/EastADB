@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "HShjSDP0U0LWEhJnN3C2AOvyJ+8=",
+			"path": "gitee.com/ying32/govcl/vcl",
+			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
+			"revisionTime": "2019-01-22T02:49:02Z"
+		}
+	],
+	"rootPath": "EasyADB"
+}
