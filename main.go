@@ -2,7 +2,7 @@ package main
 
 import (
 	"EasyADB/context"
-	"gitee.com/ying32/govcl/vcl"
+	"github.com/ying32/govcl/vcl"
 )
 
 func setupUI() {

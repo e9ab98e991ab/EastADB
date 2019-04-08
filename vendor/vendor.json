@@ -3,8 +3,38 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "HShjSDP0U0LWEhJnN3C2AOvyJ+8=",
-			"path": "gitee.com/ying32/govcl/vcl",
+			"checksumSHA1": "6z00JHvfArhQRZFLe6TRG1tnMyE=",
+			"path": "github.com/ying32/govcl/vcl",
+			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
+			"revisionTime": "2019-01-22T02:49:02Z"
+		},
+		{
+			"checksumSHA1": "4HBL3oFIrfw8cLjQjWbNyUHQ+9Q=",
+			"path": "github.com/ying32/govcl/vcl/api",
+			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
+			"revisionTime": "2019-01-22T02:49:02Z"
+		},
+		{
+			"checksumSHA1": "Gqo5qvtqXXuLGNqmikAKLjbETro=",
+			"path": "github.com/ying32/govcl/vcl/dylib",
+			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
+			"revisionTime": "2019-01-22T02:49:02Z"
+		},
+		{
+			"checksumSHA1": "ENuMeQg9gahpuwTu1SrgY7ecsv8=",
+			"path": "github.com/ying32/govcl/vcl/rtl",
+			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
+			"revisionTime": "2019-01-22T02:49:02Z"
+		},
+		{
+			"checksumSHA1": "pG5xWQ0JFlqRRTQWURwnbNUPD6I=",
+			"path": "github.com/ying32/govcl/vcl/types",
+			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
+			"revisionTime": "2019-01-22T02:49:02Z"
+		},
+		{
+			"checksumSHA1": "5yj9RcqrzRyuFFbkKC9fIzPqDdo=",
+			"path": "github.com/ying32/govcl/vcl/win",
 			"revision": "ef17c11778d78a01ab30cd738cac6713ce97d07f",
 			"revisionTime": "2019-01-22T02:49:02Z"
 		}
