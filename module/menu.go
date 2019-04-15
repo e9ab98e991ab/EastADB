@@ -4,23 +4,40 @@ import (
 	"github.com/ying32/govcl/vcl"
 )
 
-var on OnMenuItemClickListener
+var (
+	ab AB
+)
 
 /***
  * 菜单item封装
  */
 
-func MenuItem(mainForm vcl.IComponent, itemName string, position int) *vcl.TMenuItem {
+func init() {
+
+}
+func MenuItem(mainForm *vcl.TForm, itemName string, position int) *vcl.TMenuItem {
 
 	item := vcl.NewMenuItem(mainForm)
 	item.SetCaption(itemName)
 	mainForm.SetTag(position)
 	item.SetOnClick(func(sender vcl.IObject) {
-		on.OnMenuItemClick(item, position)
+		ab.OnMenuItemClick(item, position, mainForm)
+
 	})
 	return item
 }
 
-type OnMenuItemClickListener interface {
-	OnMenuItemClick(sender *vcl.TMenuItem, position int)
+type AB struct {
+}
+
+func (AB) OnMenuItemClick(sender vcl.IObject, position int, mainForm *vcl.TForm) {
+	switch position {
+	case 0:
+		vcl.ShowMessage("Click")
+		break
+	case 1:
+		mainForm.Close()
+		break
+
+	}
 }
